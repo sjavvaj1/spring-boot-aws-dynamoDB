@@ -1,0 +1,19 @@
+amazon:
+  access:
+    key: AKIA57YV2LBSB2QWTQUF
+    secret-key: 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
+  region: us-east-2
+  end-point:
+    url: http://localhost:8000
+server:
+  port: 9001
+cassandra:
+  host: localhost
+  cluster:
+    name: cluster
+  port: 9042
+  keyspace: springcassandra
+order:
+  dynamo:
+    cassandra:
+      type: false
